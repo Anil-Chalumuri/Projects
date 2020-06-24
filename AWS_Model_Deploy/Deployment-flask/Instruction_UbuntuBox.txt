@@ -1,0 +1,9 @@
+#Install python on ubuntu box
+sudo apt-get update && apt-get install python3-pip
+#Install the numpy pandas of requirement.txt
+ pip3 install -r requirements.txt
+#Run the application
+python3 app.py
+
+
+Note: in aws securtiy group added fullaccess to be selected while creating ec2
