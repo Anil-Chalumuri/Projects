@@ -1,0 +1,16 @@
+Building the docker images
+
+docker build -t money_apin .
+
+
+see the docker
+
+docker ps
+
+
+running the dockers
+
+docker run -p 8000:8000 money_api
+
+
+IP 192.168.99.100
